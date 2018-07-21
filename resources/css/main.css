@@ -54,7 +54,7 @@
  
 
   --area-wide: 1200px;
-
+  --area-narrow: 800px;
 }
 
 @media screen and (min-width: 800px) {
@@ -191,7 +191,9 @@ a:focus {
   max-width: var(--area-wide);
 }
 
-
+.layout-narrow {
+  max-width: var(--area-narrow);
+}
 
 /******************************************************************************************
 *HEADER
