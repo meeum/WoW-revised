@@ -446,8 +446,8 @@ input[type="submit"] {
 }
 
 .button {
-  background-color: var(--color-light-green);
-  color: var(--strong-text-color);
+  background-color: var(--alternative-bg-color);
+  color: var(--color-almost-white);
   border-radius: 30px;
   padding: 20px;
   min-width: 200px;
@@ -457,7 +457,7 @@ input[type="submit"] {
 
 .button:hover {
   background-color: var(--strong-text-color);
-  color: var(--color-light-green);
+  
 }
 
 /* mailchimp overrides*/
