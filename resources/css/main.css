@@ -93,7 +93,7 @@ body {
   /* background-color: var(--body-bg-color); */
 
   font-family: var(--font-default);
-  line-height: 1.4;
+  line-height: 1.8;
   color: var(--main-text-color);
   font-size: 1.125rem;
   /* margin: 0 var(--padder); */
