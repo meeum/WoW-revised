@@ -123,6 +123,7 @@ h5,
 .button {
   font-family: var(--font-heading);
   color: var(--strong-text-color);
+  font-weight: normal;
 }
 
 h1,
@@ -222,8 +223,7 @@ header .layout-wide {
   font-family: var(--font-heading);
   font-size: var(--font-size-site-title);
   color: var(--alternative-text-color);
-  color: #fff;
-  font-weight: 700;
+  
   width: 80%;
   float: right;
   text-align: right;
