@@ -95,7 +95,7 @@ body {
   font-family: var(--font-default);
   line-height: 1.8;
   color: var(--main-text-color);
-  font-size: 1.125rem;
+  font-size: 18px;
   /* margin: 0 var(--padder); */
 }
 
@@ -267,7 +267,7 @@ header .layout-wide {
   display: block;
   
   color: var(--alternative-text-color);
-  font-family: var(--font-heading);
+  
   padding: var(--spacer) 5px;
   
   text-decoration: none;
