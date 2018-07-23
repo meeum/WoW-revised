@@ -268,7 +268,7 @@ header .layout-wide {
   
   color: var(--alternative-text-color);
   font-family: var(--font-heading);
-  padding: 20px 5px;
+  padding: var(--spacer) 5px;
   
   text-decoration: none;
   text-transform: uppercase;
@@ -304,7 +304,7 @@ header .layout-wide {
 
   
   .navigation {
-    padding: 20px 0;
+    padding: var(--spacer) 0;
   }
   
 
@@ -410,7 +410,7 @@ this could be fuckery
   .content-area-grid-narrow {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: var(--spacer);
     justify-content: space-between;
   }
 }
@@ -448,9 +448,10 @@ input[type="submit"] {
   background-color: var(--alternative-bg-color);
   color: var(--color-almost-white);
   border-radius: 30px;
-  padding: 20px;
+  padding: var(--spacer);
   min-width: 200px;
   transition: all var(--transition-time);
+  text-transform: uppercase;
  
 }
 
