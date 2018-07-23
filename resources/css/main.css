@@ -174,28 +174,23 @@ a:focus {
 *LAYOUTS
 ******************************************************************************************/
 .layout-full-width,
-.layout-wide,
-.layout-narrow {
-  margin-left: auto;
-  margin-right: auto;
+.layout-wide {
   margin-bottom: var(--spacer-large);
-  padding: 0 var(--padder);
 }
 
 .layout-full-width {
-  max-width: 2000px;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .layout-wide {
   max-width: var(--area-wide);
+  padding: 0 var(--padder);
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.layout-narrow {
-  max-width: var(--area-narrow);
-}
+
 
 /******************************************************************************************
 *HEADER
