@@ -612,19 +612,7 @@ a[href*="xls"] {
   filter: unset;
 }
 
-@supports (display: grid) {
-  .image-gallery li {
-    float: none;
-    max-width: 100%;
-    margin: 0;
-  }
-  .image-gallery ul {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    overflow: unset;
-  }
-}
+
 
 /* animations */
 
