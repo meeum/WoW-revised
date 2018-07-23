@@ -12,33 +12,26 @@
 }
 
 :root {
+
+  /* fonts */
   --font-heading: 'Lilita One', cursive;
   --font-default: "Raleway", sans-serif;
 
-  --color-almost-white: #e8eef4;
-  
-
-  --color-light-green: #63dbc1;
-
+  /* Colors */
   --color-green: #084e3f;
-
-
-  --color-purple: #4952a3;
   --color-red: #ff5b5e;
-
   --color-deep-blue: #28313b;
   --color-light-grey: #97a4b1;
   --color-mid-blue: #34495e;
+  --color-almost-white: #e8eef4;
 
-  /* let's abstract these out */
-
+  /* abstract colors out */
   --main-text-color: var(--color-mid-blue);
   --strong-text-color: var(--color-deep-blue);
   --alternative-text-color: var(--color-almost-white);
   --error-color: var(--color-red);
   --border-color: var(--color-light-grey);
   
-
   --secondary-bg-color: var(--color-almost-white);
   --alternative-bg-color: var(--color-green);
 
@@ -53,7 +46,6 @@
   --font-size-sub-title: 24px;
   --font-size-heading-small: 16px;
  
-
   --area-wide: 1200px;
   --area-narrow: 800px;
 }
