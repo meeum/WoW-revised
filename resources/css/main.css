@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Karla|Rubik:500");
+/* @import url("https://fonts.googleapis.com/css?family=Karla|Rubik:500"); */
+@import url("https://fonts.googleapis.com/css?family=Lilita+One|Raleway");
 
 .element-header {
   text-transform: uppercase;
@@ -11,8 +12,8 @@
 }
 
 :root {
-  --font-heading: "Rubik", sans-serif;
-  --font-default: "Karla", sans-serif;
+  --font-heading: 'Lilita One', cursive;
+  --font-default: "Raleway", sans-serif;
 
   --color-almost-white: #e8eef4;
   
