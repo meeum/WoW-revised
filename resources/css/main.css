@@ -1,15 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css?family=Karla|Rubik:500"); */
 @import url("https://fonts.googleapis.com/css?family=Lilita+One|Raleway");
 
-.element-header {
-  text-transform: uppercase;
-  background-color: #222;
-  color: #f1f1f1;
-  padding: var(--spacer);
-  margin-bottom: var(--spacer);
-  /* position: sticky;
-  top: 0; */
-}
+
 
 :root {
 
