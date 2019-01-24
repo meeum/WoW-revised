@@ -1,8 +1,6 @@
 :root {
 
-  /* fonts */
-  --font-heading: 'Lilita One', cursive;
-  --font-default: "Raleway", sans-serif;
+  
 
   /* Colors */
   --color-green: #084e3f;
