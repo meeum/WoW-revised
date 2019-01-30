@@ -21,7 +21,7 @@
   --main-text-color: var(--color-mid-blue);
   --strong-text-color: var(--color-deep-blue);
   --alternative-text-color: var(--color-almost-white);
-  --error-color: var(--color-red);
+  --link-color: var(--color-red);
   --border-color: var(--color-light-grey);
   
   --secondary-bg-color: var(--color-almost-white);
@@ -143,7 +143,7 @@ h4,
 /* links */
 
 a {
-  color: var(--error-color);
+  color: var(--link-color);
   transition: all var(--transition-time);
 }
 
@@ -447,11 +447,11 @@ input[type="submit"] {
 
 /* mailchimp overrides*/
 #mc_embed_signup input.mce_inline_error {
-  border-color: var(--error-color) !important ;
+  border-color: var(--link-color) !important ;
 }
 #mc_embed_signup div.mce_inline_error {
   background-color: transparent !important;
-  color: var(--error-color) !important;
+  color: var(--link-color) !important;
 }
 
 /* background video */

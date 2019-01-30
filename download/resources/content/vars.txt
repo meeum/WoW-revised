@@ -14,7 +14,7 @@
   --main-text-color: var(--color-mid-blue);
   --strong-text-color: var(--color-deep-blue);
   --alternative-text-color: var(--color-almost-white);
-  --error-color: var(--color-red);
+  --link-color: var(--color-red);
   --border-color: var(--color-light-grey);
   
   --secondary-bg-color: var(--color-almost-white);
