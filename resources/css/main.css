@@ -6,7 +6,7 @@
 :root {
 
   /* fonts */
-  --font-heading: 'Lilita One', cursive;
+  --font-heading: 'Lilita One', cursive; 
   --font-default: "Raleway", sans-serif;
 
   /* Colors */
@@ -15,7 +15,7 @@
   --color-deep-blue: #28313b;
   --color-light-grey: #97a4b1;
   --color-mid-blue: #34495e;
-  --color-almost-white: #e8eef4;
+  --color-almost-white: #e8eef4; 
 
   /* abstract colors out */
   --main-text-color: var(--color-mid-blue);
@@ -170,7 +170,9 @@ a:focus {
 
 .layout-wide {
   max-width: var(--area-wide);
-  padding: 0 var(--padder);
+  /* padding: 0 var(--padder); */
+  padding-left: var(--padder);
+  padding-right: var(--padder);
 
   margin-left: auto;
   margin-right: auto;
