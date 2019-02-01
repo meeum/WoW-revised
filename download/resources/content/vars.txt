@@ -19,19 +19,18 @@
   
   --secondary-bg-color: var(--color-almost-white);
   --alternative-bg-color: var(--color-green);
-  
-  /* measurements*/
+
   --padder: 3%;
   --spacer: 20px;
   --spacer-large: 80px;
   --transition-time: 0.3s;
 
-  --area-wide: 1200px;
-
-  /* font sizes */
   --font-size-site-title: 32px;
   --font-size-page-title: 40px;
   --font-size-section-title: 30px; 
   --font-size-sub-title: 24px;
   --font-size-heading-small: 16px;
+ 
+  --area-wide: 1200px;
+  --area-narrow: 800px;
 }
