@@ -317,6 +317,7 @@ header .layout-wide {
 
     transition: var(--transition-time) ease-in-out;
     overflow: hidden; /* so we can't see it when it's closed */
+    padding: 0;
   
   }
 
