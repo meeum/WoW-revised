@@ -9,22 +9,22 @@
   --font-default: "Raleway", sans-serif;
 
   /* Colors */
-  --color-green: #084e3f;
+  /* --color-green: #084e3f;
   --color-red: #ff5b5e;
   --color-deep-blue: #28313b;
   --color-light-grey: #97a4b1;
   --color-mid-blue: #34495e;
-  --color-almost-white: #e8eef4; 
+  --color-almost-white: #e8eef4;  */
 
   /* abstract colors out */
-  --main-text-color: var(--color-mid-blue);
-  --strong-text-color: var(--color-deep-blue);
-  --alternative-text-color: var(--color-almost-white);
-  --link-color: var(--color-red);
-  --border-color: var(--color-light-grey);
+  --main-text-color: #34495e;
+  --strong-text-color: #28313b;
+  --alternative-text-color:  #e8eef4; 
+  --link-color: #ff5b5e;
+  --border-color: #97a4b1;
   
-  --secondary-bg-color: var(--color-almost-white);
-  --alternative-bg-color: var(--color-green);
+  --secondary-bg-color:  #e8eef4; 
+  --alternative-bg-color:  #084e3f;
 
   --padder: 3%;
   --spacer: 20px;
@@ -433,7 +433,7 @@ input[type="submit"] {
 
 .button {
   background-color: var(--alternative-bg-color);
-  color: var(--color-almost-white);
+  color: var(--alternative-text-color);
   border-radius: 30px;
   padding: var(--spacer);
   min-width: 200px;
