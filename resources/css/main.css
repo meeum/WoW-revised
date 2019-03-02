@@ -203,7 +203,8 @@ header .layout-wide {
   width: 100%;
   background-color: var(--alternative-bg-color);
   color: var(--alternative-text-color);
-  border-top: 1px solid #000;
+  border: none;
+  border-top: 1px solid var(--strong-text-color);
 }
 
 .nav-inner {
@@ -213,12 +214,10 @@ header .layout-wide {
 .nav-inner ul {
   padding: 0;
   margin: 0;
-}
-
-.nav-inner li {
   text-align: center;
   list-style: none;
 }
+
 
 .nav-inner a {
   display: block;
