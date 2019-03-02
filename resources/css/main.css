@@ -354,11 +354,13 @@ this could be fuckery
 /******************************************************************************************
 *FOOTER
 ******************************************************************************************/
-
+footer {
+  text-align: center;
+}
 .footer-subscribe {
   background-color: var(--alternative-text-color);
   padding: var(--spacer-large) 0;
-  text-align: center;
+  
 }
 
 .footer-notices {
@@ -367,12 +369,12 @@ this could be fuckery
 }
 
 .footer-notices .layout-wide {
-  text-align: center;
+  
   margin-bottom: 0;
 }
 
 .copyright {
-  color: #fff;
+  color: var(--alternative-text-color);
 }
 
 
