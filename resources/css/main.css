@@ -37,8 +37,7 @@
   --font-size-sub-title: 24px;
   --font-size-heading-small: 16px;
  
-  --area-wide: 1200px;
-  --area-narrow: 800px;
+  --site-width: 1200px;
 }
 
 @media screen and (min-width: 800px) {
@@ -168,7 +167,7 @@ a:focus {
 }
 
 .layout-wide {
-  max-width: var(--area-wide);
+  max-width: var(--site-width);
   /* padding: 0 var(--padder); */
   padding-left: var(--padder);
   padding-right: var(--padder);
