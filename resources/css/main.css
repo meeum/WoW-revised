@@ -419,13 +419,10 @@ input[type="email"] {
   margin-bottom: var(--spacer);
 }
 
-button,
-input[type="submit"] {
-  cursor: pointer; /* talk about this */
-  border: none; /* talk about this too */
-}
 
 .button {
+  cursor: pointer; /* talk about this */
+  border: none;
   background-color: var(--alternative-bg-color);
   color: var(--alternative-text-color);
   border-radius: 30px;
