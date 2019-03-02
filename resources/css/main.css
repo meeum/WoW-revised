@@ -100,35 +100,22 @@ h5,
   font-weight: normal;
 }
 
-h1,
-.page-title {
+h1 {
   font-size: var(--font-size-page-title);
-  line-height: 1;
-  letter-spacing: 0.6px;
 }
 
-h2,
-.section-title {
+h2 {
   font-size: var(--font-size-section-title);
-  line-height: 1.2;
-  letter-spacing: 0.6px;
 }
 
-h3,
-.subtitle {
+h3 {
   font-size: var(--font-size-sub-title);
 }
-/* 
-h4,
-.button,
-.heading-small {
-  font-size: var(--font-size-heading-small);
-  text-transform: uppercase;
-} */
 
-/* h5 {
-  line-height: 1rem;
-} */
+h4 {
+  font-size: var(--font-size-heading-small);
+}
+
 
 /* links */
 
