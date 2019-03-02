@@ -4,11 +4,6 @@ cssVars();
 
 // open mobile nav
 
-/*
-
-here's a comment
-
-*/
 
 
 // open mobile menu
@@ -60,8 +55,8 @@ imageGallery();
 //iframe
 
 
-function iframeFix() {
-  $("iframe").wrap('<div class="iframe-container"></div>');
-}
+// function iframeFix() {
+//   $("iframe").wrap('<div class="iframe-container"></div>');
+// }
 
-iframeFix();
+// iframeFix();
