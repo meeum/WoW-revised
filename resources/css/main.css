@@ -19,12 +19,12 @@
   /* abstract colors out */
   --main-text-color: #34495e;
   --strong-text-color: #28313b;
-  --alternative-text-color:  #e8eef4; 
+  
   --link-color: #ff5b5e;
   --border-color: #97a4b1;
   
-  --secondary-bg-color:  #e8eef4; 
   --alternative-bg-color:  #084e3f;
+  --alternative-text-color:  #e8eef4; 
 
   --padder: 3%;
   --spacer: 20px;
@@ -267,7 +267,7 @@ header .layout-wide {
 .nav-inner a:hover,
 .nav-inner a:focus {
 
-  color: #fff;
+  /* color: #fff; */
   border-bottom-color: currentColor;
  
 }
@@ -364,7 +364,7 @@ this could be fuckery
 ******************************************************************************************/
 
 .footer-subscribe {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--alternative-text-color);
   padding: var(--spacer-large) 0;
   text-align: center;
 }
