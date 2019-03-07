@@ -4,9 +4,9 @@
     <h2>Typography</h2>
 
     <h1>Heading level 1 (h1)</h1>
-    <h2 class="section-title">Heading level 2 (h2)</h2>
-    <h3 class="subtitle">Heading level 3 (h3)</h3>
-    <h4 class="">Heading level 4 (h4)</h4>
+    <h2>Heading level 2 (h2)</h2>
+    <h3>Heading level 3 (h3)</h3>
+    <h4>Heading level 4 (h4)</h4>
     <h5>Heading level 5 (h5)</h5>
 
 
@@ -59,27 +59,7 @@
         <a href="sms:0413889846">sms protocol</a> actually work?</p>
     <p>And finally, a
         <a href="callto:sam_hemphill">Skype link</a> that has questionable support.</p>
-    <h3>Links to file types</h3>
-    <ul class="file-list">
-        <li>
-            <a href="test.pdf">A link to a pdf</a>
-        </li>
-        <li>
-            <a href="test.doc">A link to a word document</a>
-        </li>
-        <li>
-            <a href="test.xlsx">A link to an excel spreadsheet</a>
-        </li>
-        <li>
-            <a href="test.gif">A link to a gif</a>
-        </li>
-        <li>
-            <a href="test.jpg">A link to a jpg</a>
-        </li>
-        <li>
-            <a href="test.png">A link to a png</a>
-        </li>
-    </ul>
+    
 
     <h2>Lists</h2>
     <h4>Unordered list</h4>
@@ -215,19 +195,13 @@
 
     <h3>Images</h3>
 
-    <h4>Full width images</h4>
-    <div class="layout-full-width">
-
-
-        <img src="/resources/" alt="Image alt text">
-
-    </div>
-    <h4>Normal images</h4>
-    <div class="layout-full-width">
+    
+  
+   
 
         <img src="//placekitten.com/480/480" alt="Image alt text">
 
-    </div>
+
 
     
 
@@ -249,7 +223,7 @@
 
 
     <h3>Video (no controls - for background)</h3>
-    <video autoplay loop class="">
+    <video autoplay loop>
         <source src="resources/video/Cloud_Surf.mp4" type="video/mp4" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
         <source src="resources/video/Cloud_Surf.webm" type="video/webm" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
     </video>
@@ -260,7 +234,7 @@
 
 
 
-    <video controls class="">
+    <video controls>
         <source src="resources/video/Cloud_Surf.mp4" type="video/mp4" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
         <source src="resources/video/Cloud_Surf.webm" type="video/webm" poster="resources/video/Cloud_Surf.jpg" />Your browser does not support the video tag. I suggest you upgrade your browser.
     </video>
